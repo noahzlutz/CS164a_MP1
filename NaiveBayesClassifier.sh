@@ -1,0 +1,2 @@
+make naivebayes
+./a.out $@
