@@ -1,2 +1,2 @@
 make naivebayes
-./a.out $@
+./a.out training.txt testing.txt
