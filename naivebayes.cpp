@@ -188,6 +188,7 @@ void naiveBayes::predict(string predict_data){
     trainfile.open(predict_data);
 
     string line;
+
     while(getline(trainfile, line)){
 
         stringstream s(line);
@@ -232,9 +233,13 @@ void naiveBayes::predict(string predict_data){
 
         if(probclass0 > probclass1){
             cout<< 0 << endl;
+            
         }else{
             cout<< 1 << endl;
+            
         }
+
+        
     }
 
 }

@@ -1,2 +1,2 @@
-make naivebayes
-./naivebayes training.txt testing.txt
+make NaiveBayesClassifier
+./NaiveBayesClassifier training.txt testing.txt

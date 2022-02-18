@@ -2,11 +2,11 @@ CXX=g++
 
 CXXFLAGS = -std=c++11
 
-BINARIES=naivebayes
+BINARIES=NaiveBayesClassifier
 
 all: ${BINARIES}
 
-naivebayes: naivebayes.o naivebayesclassifier.o
+NaiveBayesClassifier: naivebayes.o naivebayesclassifier.o
 	${CXX} $^ -o $@
 
 clean:
